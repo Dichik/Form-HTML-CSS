@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body>
+	<div id="title">
+		<h1>Survey-form</h1>
+		<h3>It's survey form for getting more information about user</h3>
+	</div>
+	<form id="survey-form">
+		<hr id="line-left">
+		<h1>Form</h1>
+		<hr id="line-right">
+		<input type="username" name="name" id="name" required>
+		<input type="email" name="email" id="email" required>
+		<input type="number" name="age" id="number" required step="1" min="1" max="100">
+		
+		<label id="label1">Am I your father, Luke?</label>
+
+		<select id="Bool" name="Choice">
+			<option value="Yes">Yes</option>
+			<option value="No">No</option>
+		</select>
+
+		<button id="submit-button">Submit</button>
+
+		<script type="text/javascript">
+			document.getElementById("name")
+				.setAttribute("placeholder", "Name");
+			document.getElementById("email")
+				.setAttribute("placeholder", "Email");
+			document.getElementById("number")
+				.setAttribute("placeholder", "Age");
+		</script>
+	</form>
+</body>
+</html>

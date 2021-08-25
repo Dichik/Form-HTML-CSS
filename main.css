@@ -1,0 +1,123 @@
+#title {
+	position: absolute;
+	left: 550px;
+	width: 380px;
+}
+
+h3 {
+	text-align: center;
+	color: rgba(0, 0, 0, 0.5);
+
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px 2px grey;
+
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+input[name="name"] {
+	top: 100px;
+}
+
+input[name="email"] {
+	top: 180px;
+}
+
+input[name="age"] {
+	top: 260px;
+}
+
+input {
+	left: 50px;
+	position: absolute;
+	width: 280px;
+	height: 50px;
+
+	background: #FFFFFF;
+	border: 1px solid #29E8FF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 163, 255, 0.25);
+	border-radius: 15px;
+
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#survey-form{
+	position: absolute;
+	width: 380px;
+	height: 550px;
+	left: 550px;
+	top: 138px;
+
+	background: #EAFDFF;
+	border: 3px solid #29E8FF;
+	box-sizing: border-box;
+}
+
+hr {
+	position: absolute;
+	width: 100px;
+	height: 0px;
+
+	border: 1px solid #000000;
+}
+
+#line-left {
+	left: 10px;
+	top: 30px;
+}
+
+#line-right {
+	left: 260px;
+	top: 30px;
+}
+
+#submit-button {
+	top: 400px;
+	left: 50px;
+	position: absolute;
+	width: 280px;
+	height: 50px;
+
+	background: #53EDFF;
+	border: 1px solid rgba(68, 68, 68, 0.5);
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 163, 255, 0.25);
+	border-radius: 15px;
+
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.submit-button:hover{
+  background-color: #00EEE0;
+  border: 1px #99ccff solid;
+}
+
+#label1 {
+	position: absolute;
+	top: 340px;
+	left: 50px;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+#Bool {
+	position: absolute;
+	top: 340px;
+	left: 270px;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
